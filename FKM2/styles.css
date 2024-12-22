@@ -1,0 +1,101 @@
+body {
+  background-image: linear-gradient(to top, #0b0a0f, #0f0f13, #131316, #161618, #19191b);
+  height: 100%;
+}
+
+.barraSuperior
+{
+  display: grid;
+  grid-template-columns: 40px auto;
+  height: 40px;
+}
+
+.menuHamburguesa
+{
+  height: 40px;
+}
+
+.titulo
+{
+  text-align: center;
+  font-size: 40px;
+  height: 40px;
+  font-weight: 499;
+}
+
+.titulo p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.cajaPrincipal
+{
+  margin-top: 52px;
+  display: grid;
+  grid-template-columns: 440px 440px 440px;
+  gap: 5px;
+}
+
+.formatoColumna
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.nombrePersonaje
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.cajaImagenPersonaje
+{
+  height: 280px;
+  margin-bottom: 64px;
+  
+}
+
+.imagenPersonaje
+{
+  height: 280px;
+  width: 440px;
+  border-radius: 20px;
+}
+
+.columnaBotones
+{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+}
+
+.botones
+{
+  background-color: #414C50;
+  text-align: center;
+  height: 55px;
+  width: 240px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+
+}
+
+.botones:hover
+{
+  background-color: #819AA3;
+}
+
+p {
+  color: white;
+  font-family: "Inter";
+}
+
+.botones.seleccionado
+{
+  background-color: #819AA3;
+}
